@@ -26,20 +26,13 @@ The purpose of the model was to determine whether a loan to the borrower in the 
 This intial model was drawing from a dataset that had 18,759 healthy loan data points and 625 high-risk data points. 
 
 ## Results
-Classification Report
-                precision    recall  f1-score   support
+![image](https://github.com/bathl01/credit_risk_classification_20/assets/145512041/28975e8a-a8fb-4e1b-a116-fc3349a1a994)
 
-  healthy loan       1.00      1.00      1.00     18759
-high-risk loan       0.87      0.89      0.88       625
-
-      accuracy                           0.99     19384
-     macro avg       0.94      0.94      0.94     19384
-  weighted avg       0.99      0.99      0.99     19384
   
 ### Logistic Regression Model 1:
-* Precision: 94% (an average--in predicting healthy loans, the model was 100% precise, though the model was only 87% precise in predicting high-risk loans) This means 92% of predicted positives were correct
+* Precision: 100% precise in predicting healthy loans, 87% precise in predicting high-risk loans. This means for the healthy loans the classifications was corerect 100% of the time but for high-risk loans it was only correct 87% of the time.
 * Accuracy: 99% indicates this model does a good job predicting both healty and high-risk loans.  However, there is a significant inbalance in the data with target values (75036 out of 77536) are for the healthy loans.
-* Recall: 97% (an average--the model had 100% recall in predicting healthy loans, but 95% recall in predicting high-risk loans) this means that the model was 94% precise in measuring true positive values our of all positive predictions made
+* Recall: 100% for the healthy loans and 89% for the high-risk loans. This means that the model where the loans were actually healthy 100% of the time they were correct but only 89% of the time when they were high-risk loans.
  
 ## Summary
 I would recommend using this model to predict the creditworthiness of borrowers, because it has over 95% accuracy in predicting the outcome of the repayment of the initial loan. That accuracy range could be easily molded into a business risk profile to ensure sufficient capital 

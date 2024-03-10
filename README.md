@@ -37,3 +37,7 @@ This intial model was drawing from a dataset that had 18,759 healthy loan data p
 ## Summary
 I would recommend using this model to predict the creditworthiness of borrowers, because it has over 95% accuracy in predicting the outcome of the repayment of the initial loan. That accuracy range could be easily molded into a business risk profile to ensure sufficient capital 
 flow for the lenders to remain in business/make a profit.
+
+## Acknowledgements
+* https://stackoverflow.com - where stratify = y goes
+* https://scikit-learn.org/ - assistance with the interpretation of the model results

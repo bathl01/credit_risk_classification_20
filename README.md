@@ -8,14 +8,14 @@ NOTE: only one Model was run imbalanced learn was not covered in our course.
 The purpose of this analysis is to create and evaluate the accuracy of a data model that predicts the credity worthiness of potential borrowers from peer-to-peer lending services
 
 Factors considered in the analysis included data on:
-loan_size	
-interest_rate	
-borrower_income	
-debt_to_income	
-num_of_accounts	
-derogatory_marks	
-total_debt
-loan_status
+# loan_size	
+# interest_rate	
+# borrower_income	
+# debt_to_income	
+# num_of_accounts	
+# derogatory_marks	
+# total_debt
+# loan_status
 
 The dataset (77535 data points) was split into training and testing sets. The training set was used to build an initial logistic regression model (Logistic Regression Model 1) using the LogisticRegression module from scikit-learn. Logistic Regression Model 1 was then applied to the testing dataset. 
 The purpose of the model was to determine whether a loan to the borrower in the testing set would be healthy or high-risk and results are summarized below.

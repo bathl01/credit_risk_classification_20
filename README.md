@@ -11,7 +11,7 @@ Factors considered in the analysis included data on:
 * loan_size	
 * interest_rate	
 * borrower_income	
-* # debt_to_income	
+* debt_to_income	
 * num_of_accounts	
 * derogatory_marks	
 * total_debt
